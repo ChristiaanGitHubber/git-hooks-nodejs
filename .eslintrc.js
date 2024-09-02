@@ -12,3 +12,7 @@ module.exports = {
         "linebreak-style": 0
     },
 };
+// TODO: If you are bored you can update the eslint package
+// and try to use the new syntax with eslint
+// https://stackoverflow.com/a/74941497
+
