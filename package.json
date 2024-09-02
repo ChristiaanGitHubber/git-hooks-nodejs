@@ -11,10 +11,11 @@
   "description": "",
   "devDependencies": {
     "husky": "^4.3.8",
-    "jest": "^29.7.0",
-    "pre-commit": "^1.2.2"
+    "jest": "^29.7.0"
   },
-  "pre-commit": [
-    "test"
-  ]
+  "husky": {
+    "pre-commit": [
+      "npm run jest"
+    ]
+  }
 }
