@@ -23,10 +23,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-fix && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged" : {
-    "*.js" : ["eslint", "jest --FindRelatedTests"]
+    "*.js" : ["eslint", "jest --findRelatedTests"]
   }
 }
