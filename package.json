@@ -25,7 +25,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "post-commit": "success-message"
+      "post-commit": "npm run success-message"
     }
   },
   "lint-staged" : {
