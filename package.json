@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/**",
-    "lint-fix": "eslint src/** --fix"
+    "lint-fix": "eslint src/** --fix",
+    "success-message": "echo Thank you for committing $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "post-commit": "success-message"
     }
   },
   "lint-staged" : {
